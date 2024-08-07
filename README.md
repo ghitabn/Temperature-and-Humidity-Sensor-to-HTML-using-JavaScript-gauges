@@ -6,8 +6,6 @@ The setup allows periodic readings from a DHT11 temperature and humidity sensor 
 
 Difficulty level: intermediate.
 
-This is the third part of the Sensor Reading tutorial:
-
 ## 2. Parts
 
 * 1 x Arduino Uno R3;
@@ -30,7 +28,7 @@ The code implements a minimalist web server. It hosts a single web page (stored 
 
 Note. The Gauge component is written by Mykhailo Stadnyk (ref. https://github.com/Mikhus/canvas-gauges, https://wwvalue.com/web-dev/pure-javascript-html5-canvas-gauge-canvgauge)
 
-* /code/index.htm – to be placed in the mini-SD card:
+* /code/index.htm – to be placed in the mini-SD card
 * /code/gaugeDHT11.ino – to be uploaded to Arduino
 
 Note. In order to avoid SRAM memory saturation, static strings are stored  in flash memory (usage of “F()” in some Serial.println statements).
