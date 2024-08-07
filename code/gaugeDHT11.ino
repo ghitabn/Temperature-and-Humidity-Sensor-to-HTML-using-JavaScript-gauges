@@ -30,7 +30,7 @@ References:
 
 Date:         April 25, 2017
 
-Author:       G. Gainaru, http://www.arduinolab.net
+Author:       Gheorghe G., http://www.arduinolab.net
 ------------------------------------------------------------------------------*/
 #include <SPI.h>
 #include <Ethernet.h>
