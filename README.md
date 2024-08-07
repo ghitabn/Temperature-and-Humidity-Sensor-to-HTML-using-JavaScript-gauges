@@ -16,11 +16,11 @@ Difficulty level: intermediate.
 
 ## 3. Schematics
 
-![Temperature and Humidity Sensor to HTML using JavaScript gauges schem!](/diagrams/schem.jpg "Temperature and Humidity Sensor to HTML using JavaScript gauges schem")
+![Temperature and Humidity Sensor to HTML using JavaScript gauges schem!](/res/schem.jpg "Temperature and Humidity Sensor to HTML using JavaScript gauges schem")
 
 ## 4. Assembly (breadboard)
 
-![Temperature and Humidity Sensor to HTML using JavaScript gauges bboard!](/diagrams/bboard.jpg "Temperature and Humidity Sensor to HTML using JavaScript gauges bboard")
+![Temperature and Humidity Sensor to HTML using JavaScript gauges bboard!](/res/bboard.jpg "Temperature and Humidity Sensor to HTML using JavaScript gauges bboard")
 
 ## 5. Code
 
@@ -28,8 +28,8 @@ The code implements a minimalist web server. It hosts a single web page (stored 
 
 Note. The Gauge component is written by Mykhailo Stadnyk (ref. https://github.com/Mikhus/canvas-gauges, https://wwvalue.com/web-dev/pure-javascript-html5-canvas-gauge-canvgauge)
 
-* /code/index.htm – to be placed in the mini-SD card
-* /code/gaugeDHT11.ino – to be uploaded to Arduino
+* /src/index.htm – to be placed in the mini-SD card
+* /src/gaugeDHT11.ino – to be uploaded to Arduino
 
 Note. In order to avoid SRAM memory saturation, static strings are stored  in flash memory (usage of “F()” in some Serial.println statements).
 
